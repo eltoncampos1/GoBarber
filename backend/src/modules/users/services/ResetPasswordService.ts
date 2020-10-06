@@ -2,7 +2,6 @@ import AppError from '@shared/errors/AppErrors';
 import { injectable, inject } from 'tsyringe';
 import { isAfter, addHours } from 'date-fns';
 
-// import AppError from '@shared/errors/AppErrors';
 import IUsersRepository from '../repositories/IUsersRepository';
 import IUserTokensRepository from '../repositories/IUserTokensRepository';
 import IHashProvider from '../providers/hashProvider/models/IHashProvider';
